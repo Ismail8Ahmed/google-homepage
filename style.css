@@ -28,11 +28,13 @@ li {
 }
 
 .image {
-    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
     justify-content: center;
     position: absolute;
-    top: 25%;
-    left: 45%;
+    top: 20vh;
+    left: 37vw;
     transform: transflate(0, -50%);
 
 }
@@ -44,7 +46,7 @@ li {
     display: inline-block;
     justify-content: center;
     position: absolute;
-    top: 50%;
+    top: 50vh;
     left: 30vw;
     transform: transflate(0, -50%);
     
