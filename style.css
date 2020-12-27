@@ -1,0 +1,58 @@
+ul {
+    list-style-type: none;
+    padding-left: 0vw;
+}
+
+li {
+    display: inline;
+}
+
+
+.about_store {	
+    display: inline;
+}
+
+.gmail_images {
+    display: inline;
+    padding-left: 70vw;
+}
+
+.ads_biz_search {
+    padding-left: 50wv;
+    padding-top: 75vh;
+}
+
+.privacy_terms_settings {
+    display: inline;
+    padding-left: 75vw;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    transform: transflate(0, -50%);
+
+}
+
+
+.search_div {
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 30vw;
+    transform: transflate(0, -50%);
+    
+}
+
+
+#searchbar {
+    width: 40vw;
+    height: 100ww;
+    border-radius: 30px;
+}
