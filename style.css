@@ -14,47 +14,70 @@ li {
 
 .gmail_images {
     display: inline;
-    padding-left: 70vw;
+    margin-left: 70vw;
 }
+
+.footer {    
+    display: inline;
+    margin-top: 75vh; 
+    position: fixed;
+    left: 0vh;
+    bottom: 0vh;
+    width: 100vw;
+    background-color: gray;
+}
+
 
 .ads_biz_search {
-    padding-left: 50wv;
-    padding-top: 75vh;
+    display: inline;
+    text-align: left;
 }
 
-.privacy_terms_settings {
+.privacy_terms_settings{
     display: inline;
-    padding-left: 75vw;
+    text-align: right;
 }
 
 .image {
-    margin: 0 auto;
-    text-align: center;
-    display: inline-block;
+    display: flex;
     justify-content: center;
-    position: absolute;
-    top: 20vh;
-    left: 37vw;
-    transform: transflate(0, -50%);
+    \* Optinal, but still makes it look better: margin-top: 10vh;*\
+    margin-top: 10vh;
+        
 
 }
 
 
 .search_div {
-    margin: 0 auto;
-    text-align: center;
-    display: inline-block;
+    display: flex;
     justify-content: center;
-    position: absolute;
-    top: 50vh;
-    left: 30vw;
-    transform: transflate(0, -50%);
+    margin-top: 10vh;
     
 }
 
 
 #searchbar {
     width: 40vw;
-    height: 100ww;
-    border-radius: 30px;
+    height: 4vh;
+    border-radius: 3vh;
 }
+
+
+
+.search_buttons {
+    color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    
+    \*margin-left: 30vw;*\
+}
+
+\*.feeling_lucky {
+    display: flex;
+    justify-content: center;
+    background-color: #d3d3d3;
+    margin-bottom: 150vh;
+}
+
+*\
