@@ -65,9 +65,13 @@ li {
 
 
 .search_buttons {
-    color: #d3d3d3;
+    background-color: #d3d3d3;
     display: flex;
     justify-content: center;
+    positoon: absolute;
+    top: 50vh;
+    left: 50vw;
+    
     margin-top: 5vh;
     
     \*margin-left: 30vw;*\
