@@ -5,6 +5,7 @@ ul {
 
 li {
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -26,6 +27,8 @@ li {
     bottom: 0vh;
     width: 100vw;
     background-color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
@@ -68,14 +71,15 @@ li {
 
 
 .search_buttons {
-
-    margin: 30px 5px;
-    padding: 10px 20px;
+    margin-top: 5vh;
     text-align: center;
-    background-color: #f4f4f4;
-    color: #000000b6;
-    border: none;
-    border-radius: 5px;
-    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button {
+    border: 1px solid #f0f0f0;
+    background-color: #f0f0f0;
+    padding: 4px 12px;
 
 }
