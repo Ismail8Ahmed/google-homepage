@@ -25,18 +25,20 @@ li {
     left: 0vh;
     bottom: 0vh;
     width: 100vw;
-    background-color: gray;
+    background-color: #e6e6e6;
 }
 
 
 .ads_biz_search {
     display: inline;
     text-align: left;
+     
 }
 
 .privacy_terms_settings{
     display: inline;
     text-align: right;
+    
 }
 
 .image {
@@ -66,17 +68,14 @@ li {
 
 
 .search_buttons {
-    \*background-color: #d3d3d3;*\
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 40vw;
-    
-    \*positon: absolute;
-    top: 50vh;
-    left: 50vw;
-    margin-top: 5vh;
-    \*margin-left: 30vw;*\
+
+    margin: 30px 5px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #000000b6;
+    border: none;
+    border-radius: 5px;
+    outline: none;
 
 }
